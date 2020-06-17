@@ -1,0 +1,12 @@
+// helper
+@import "../node_modules/bootstrap/scss/functions";
+@import "./helper/variables"; 
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./helper/base"; // 全站設定
+@import "./helper/utilities"; // 工具類 class，.mb-1、.pr-3
+
+// layout 共同框架,第一層
+@import  "./layout/sidebar";
+// 頁面設計
+@import "./pages/home";         

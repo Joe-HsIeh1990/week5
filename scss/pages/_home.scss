@@ -1,0 +1,137 @@
+.header {
+    height: 93px;
+    &-list1 {
+        h2 {
+            margin-right: 46px;
+        }
+    }
+    &-drop {
+        cursor: pointer;
+    }
+    &-list2 {
+        span {
+            margin-left: 26.03px;
+        }
+    }
+}
+.main {
+    height: auto;
+    &-select {
+        &-drop {
+            cursor: pointer;
+        }
+    }
+    &-content {
+        &-box1 {
+            margin-right: 1.74%;
+            width: 34.7827%;
+        }
+        &-list1 {
+            padding: 12px;
+        }
+        &-title1 {
+            background-color: #cdddcd;
+        }
+        &-txt2 {
+            p {
+                color: #0000009a;
+            }
+        }
+    }
+    &-message {
+        width: 63.4783%;
+
+        &-title {
+            background-color: #cdddcd;
+        }
+        &-customimg {
+            width: 40px;
+            height: 40px;
+            img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+        &-content {
+            width: 176px;
+            height: 40px;
+            background-color: #cdddcd;
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+        &-text {
+            width: 488px;
+            margin-left: 64px;
+            p {
+                font-size: 14px;
+                line-height: 21px;
+                white-space: pre-line;
+                a {
+                    font-size: 14px;
+                    line-height: 21px;
+                    text-decoration: none;
+                    color: #2a8356;
+                    background-color: #edf4ee;
+                    width: 33px;
+                }
+            }
+        }
+        &-enter {
+            margin-left: 64px;
+        }
+        &-menu {
+            margin-left: 64px;
+            margin-bottom: 22px;
+            p {
+                font-size: 14px;
+                line-height: 21px;
+            }
+            li {
+                list-style-type: disc;
+                p {
+                    font-size: 14px;
+                    line-height: 21px;
+                    a {
+                        font-size: 14px;
+                        line-height: 21px;
+                        text-decoration: none;
+                        color: #2a8356;
+                        background-color: #edf4ee;
+                        width: 33px;
+                    }
+                }
+            }
+        }
+    }
+}
+.bottom {
+    &-container {
+        margin-top: 16px;
+        margin-bottom: 40px;
+        height: auto;
+        position: relative;
+    }
+    &-icon {
+        margin-left: 23px;
+        padding-right: 220px;
+
+    }
+    &-btn {
+        height: auto;
+        width: auto;
+        position: absolute;
+        right: 33px;
+        top: 0;
+        a{
+            margin-left: 16px;
+        }
+        .bt1{
+            width: 157px;
+        }
+        .bt2{
+            width: 105px;
+        }
+    }
+}
